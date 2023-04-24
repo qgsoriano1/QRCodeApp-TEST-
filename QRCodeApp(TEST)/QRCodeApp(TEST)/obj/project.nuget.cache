@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ywqUd1bIkVXeW4rSYKpxuYLpc8MxIXk3wOlq1QzIgzW0d1+eVSrDWnNQWIv74+L3rORiS0C2rpMAeeyE+cZ/WA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GSori\\source\\repos\\QRCodeApp(TEST)\\QRCodeApp(TEST)\\QRCodeApp(TEST).vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GSori\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\GSori\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\GSori\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
