@@ -22,21 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
+        buttonGenerate = New Button()
         Label1 = New Label()
-        PictureBox1 = New PictureBox()
-        TextBox1 = New TextBox()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        pic = New PictureBox()
+        txtInput = New TextBox()
+        CType(pic, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Button1
+        ' buttonGenerate
         ' 
-        Button1.Location = New Point(703, 661)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(157, 29)
-        Button1.TabIndex = 0
-        Button1.Text = "Generate QR Code"
-        Button1.UseVisualStyleBackColor = True
+        buttonGenerate.Location = New Point(703, 661)
+        buttonGenerate.Name = "buttonGenerate"
+        buttonGenerate.Size = New Size(157, 29)
+        buttonGenerate.TabIndex = 0
+        buttonGenerate.Text = "Generate QR Code"
+        buttonGenerate.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
@@ -47,40 +47,42 @@ Partial Class Form1
         Label1.TabIndex = 1
         Label1.Text = "Name:"
         ' 
-        ' PictureBox1
+        ' pic
         ' 
-        PictureBox1.Location = New Point(60, 12)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(800, 600)
-        PictureBox1.SizeMode = PictureBoxSizeMode.CenterImage
-        PictureBox1.TabIndex = 2
-        PictureBox1.TabStop = False
+        pic.BackColor = Color.White
+        pic.Location = New Point(60, 12)
+        pic.Name = "pic"
+        pic.Size = New Size(800, 600)
+        pic.SizeMode = PictureBoxSizeMode.CenterImage
+        pic.TabIndex = 2
+        pic.TabStop = False
         ' 
-        ' TextBox1
+        ' txtInput
         ' 
-        TextBox1.Location = New Point(105, 626)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(755, 29)
-        TextBox1.TabIndex = 3
+        txtInput.Location = New Point(105, 626)
+        txtInput.Name = "txtInput"
+        txtInput.Size = New Size(755, 29)
+        txtInput.TabIndex = 3
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(9F, 21F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(982, 753)
-        Controls.Add(TextBox1)
-        Controls.Add(PictureBox1)
+        Controls.Add(txtInput)
+        Controls.Add(pic)
         Controls.Add(Label1)
-        Controls.Add(Button1)
+        Controls.Add(buttonGenerate)
         Name = "Form1"
-        Text = "Form1"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "TIP-QC Campus Access Generator"
+        CType(pic, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents buttonGenerate As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents pic As PictureBox
+    Friend WithEvents txtInput As TextBox
 End Class
